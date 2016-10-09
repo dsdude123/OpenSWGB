@@ -1,2 +1,2 @@
 # OpenSWGB
-A open source version of Star Wars Galactic Battlegrounds based on the GameMaker engine.
+A open source version of Star Wars Galactic Battlegrounds Saga based on the Godot engine.

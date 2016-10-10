@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://graphics/empire/blue/TIE/TIE.png" type="Texture" id=1]
+
+[node name="TestObjects" type="Node"]
+
+[node name="TIE" type="Sprite" parent="."]
+
+transform/pos = Vector2( 520.561, 255.369 )
+transform/scale = Vector2( 1, 1 )
+texture = ExtResource( 1 )
+
+

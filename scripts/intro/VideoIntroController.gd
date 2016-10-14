@@ -23,6 +23,17 @@ func gotointro():
 		var introvideo = load("res://graphics/video/xintro.ogv")
 		set_stream(introvideo)
 		self.play()
+		#Wait before playing next video
+		var t = Timer.new()
+		t.set_wait_time(70)
+		t.set_one_shot(true)
+		self.add_child(t)
+		t.start()
+		yield(t, "timeout")
+		nextScene()
+		
 	else:
 		gotointro()
 #	
+func nextScene():
+	get_node("/root/sceneController").setScene("res://scene/TestObjects.xml")

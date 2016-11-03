@@ -38,17 +38,17 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="44"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 18, 2, -1, 15, 3, 0, 4, 1, 5, 2, 6, 2, 7, 3, 8, 3, 9, 4, 10, 5, 11, 6, 12, 7, 13, 3, 14, 0, 15, 0, 16, 1, 17, 8, 0 </int_array>
+			<int_array  len="44"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 18, 2, -1, 15, 3, 0, 4, 0, 5, 1, 6, 1, 7, 2, 8, 2, 9, 3, 10, 4, 11, 5, 12, 6, 13, 2, 14, 0, 15, 0, 16, 7, 17, 8, 0 </int_array>
 			<string> "variants" </string>
 			<array  len="9" shared="false">
 				<bool> False </bool>
-				<bool> True </bool>
 				<int> 2 </int>
 				<real> 0 </real>
 				<real> 1024 </real>
 				<real> 768 </real>
 				<int> 0 </int>
-				<resource name=""></resource>				<resource  external="0">  </resource>
+				<resource name=""></resource>				<bool> True </bool>
+				<resource  external="0">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>

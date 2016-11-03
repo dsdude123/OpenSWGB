@@ -36,4 +36,4 @@ func gotointro():
 		gotointro()
 #	
 func nextScene():
-	get_node("/root/sceneController").setScene("res://scene/TestObjects.xml")
+	get_node("/root/sceneController").setScene("res://scene/MainMenu.xml")
